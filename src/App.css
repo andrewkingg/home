@@ -1,22 +1,273 @@
+body{
+  background-color: #fafafa;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
+  min-width: 100%;
+  margin:0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.Container {
+  width: 980px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin:0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerBanner {
+  width: 980px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  margin:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(196, 196, 196);
+  position: relative;
+}
+
+.headerBanner span{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.navbarHeader {
+  width: 980px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(196, 196, 196);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navText{
+  font-weight: 600; 
+  font-size : 17px;
+  margin: 20px;
+}
+
+.pfp{
+  margin: auto;
+  width: 249px;
+  height: 249px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksColumn{
+  display: flex;
+  flex-direction: column;
+}
+.linkIcons{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  color: rgb(140, 209, 255);
+}
+.linkRow{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.pfpText{
+  width: 100%;
+  height: 210px;
+  text-align: center;
+}
+.Panel2 {
+  width: 700px;
+  height: 100vh;
+  margin:0px;
+}
+
+.Panel1 {
+  display:inline-block;
+  width: 250px;
+  height: 100vh;
+  margin:0px;
+}
+
+.experience {
+  width: 100%;
+  height: 460px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(196, 196, 196);
+}
+.experienceTitle{
+  margin-top: 0px;
+}
+.experienceContainer{
+  /*overflow: auto;*/
+  height: 100%;
+}
+.experienceHolder {
+  width: 100%;
+  height: 134px;
+  border-bottom-style: solid;
+  border-width: .5px;
+  border-color: rgb(0, 223, 205);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iconHolder {
+  display: inline-block;
+  height:100%;
+}
+
+.imageFit{
+  height : 100%;
+  width : 100%;
+}
+
+.slideshowCardImageHolder{
+  margin-left: .5px;
+  width: 520px;
+  height: 99.9%;
+  background-color: rgb(255, 255, 255);
+  border-right-style: solid;
+  border-right-width: 0.5px;
+  border-right-color: rgb(170, 170, 170);
+}
+
+.slideshowCard{
+  height: 300px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  border-bottom-style: solid;
+  border-width: .5px;
+  border-color:rgb(255, 57, 116);
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+a:visited{
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+.pink{
+  color:rgb(255, 57, 116);
+}
+.yellow{
+  color:rgb(255, 198, 43);
+}
+.green{
+  color: rgb(0, 223, 205);
+}
+.slideshowCardText{
+  margin-right: .5px;
+  width: 180px;
+  height: 99.9%;
+  background-color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+.whiteText{
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+}
+
+.whiteText p,h3{
+  margin-top: 6px;
+  margin-right: 10px;
+}
+h2.title{
+  border-bottom-style: solid;
+  border-width: .5px;
+  border-color: rgb(255, 198, 43);
+  margin-bottom: .2px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+.center{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descTitle{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.descTitle p{
+  margin: 0px;
+}
+.descBody{
+  margin: 0px;
+  font-size: 15px;
+  width: 100%;
+}
+.descFooter{
+  position: absolute;
+  margin-bottom: 5px;
+  bottom: 0px;
+  font-size: 14px;
+}
+
+.descHolder {
+  height:100%;
+  width: 75%;
+  position: relative;
+  margin-left: 10px;
+}
+
+.experienceIcon{
+  height : 90%;
+  width: 18%;
+  border-style:solid;
+  border-color: rgb(196, 196, 196);
+  border-width: .5px;
+  padding: 1px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.row {
+  flex:1;
+  display: flex;
+  width: 100%;
 }
