@@ -12,9 +12,9 @@ class AboutDesc extends React.Component {
 
     render() {
         return (
-            <div className="experience">
+            <div className="experience" style ={{height: '400px'}}>
                 <h2 className="experienceTitle title" style = {{paddingLeft: '15px'}}>About Me</h2>
-               <p style = {{marginLeft: '15px', marginRight: '15px', fontSize: '17px', textIndent: '50px'}}>{this.state.desc}</p>
+               <p style = {{marginLeft: '15px', marginRight: '15px', fontSize: '16px', textIndent: '50px'}}>{this.state.desc}</p>
             </div>
         );
     }
