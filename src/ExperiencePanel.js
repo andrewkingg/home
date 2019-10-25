@@ -14,8 +14,8 @@ class ExperiencePanel extends React.Component {
                 {
                     name: 'Parsons Corporation - Software Engineer',
                     date: 'June 2019 - Present',
-                    desc: 'Worked as a developer to support Automation Testing for Company Software. Set up Stress tesing services and testing environments for the different applications.',
-                    tech: 'Java, Selenium, Cucumber, Jenkins, Ansible, Bash, Computer Networks',
+                    desc: 'Worked as a Front End engineer to support the development of software interfaces and supported Automation Testing codebase for Company products.',
+                    tech: 'HTML, Javascript, Polymer, React, Java, Selenium, Ansible, Bash, Computer Networks',
                     image: parsons
                 },
                 {
