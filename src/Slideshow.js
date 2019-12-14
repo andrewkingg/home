@@ -8,7 +8,7 @@ function Slideshow() {
 
   const images = [
     {
-      link: "https://andrewkingg.github.io/poketyper/",
+      link: "https://cocky-kare-21e56f.netlify.com/",
       thumbnail: PokeTyper,
       title: "Poke-Typer",
       category: "Utility (Game)",
