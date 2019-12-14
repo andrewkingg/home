@@ -1,15 +1,26 @@
 import React from "react";
 import { Gallery } from "react-gesture-gallery";
 import SlideshowCard from './SlideshowCard'
-
-
+import TopModel from './Assets/TopModel.jpg'
+import PokeTyper from './Assets/PokeTyper.jpg'
 function Slideshow() {
   const [index, setIndex] = React.useState(0);
 
   const images = [
     {
-      src:
-        "https://images.unsplash.com/photo-1557958114-3d2440207108?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+      link: "https://www.roblox.com/games/162344480/Top-Roblox-Runway-Model-V-3-2",
+      thumbnail: TopModel,
+      title: "Roblox Top Model",
+      category: "Game",
+      technology: "LUA, Roblox Studio",
+      description: "A speed based fashion mini-game I created in the Summer of 2015. This was my one of my first introductions to coding and it inspired me to learn how to create different apps.",
+    }, {
+      link: "https://andrewkingg.github.io/poketyper/",
+      thumbnail: PokeTyper,
+      title: "Poke-Typer",
+      category: "Utility (Game)",
+      technology: "React, Typescript",
+      description: "An app used to quickly find the type resistances of a Pokemon! I created this app to practice Typescript and Fetch requests (from PokeApi). I had this idea while playing Pokemon Shield.",
     },
   ];
 
@@ -21,8 +32,8 @@ function Slideshow() {
           setIndex(i);
         }}
       >
-        {images.map(img => (
-          <SlideshowCard />
+        {images.map(project => (
+          <SlideshowCard project = {project}/>
         ))}
       </Gallery>
     </div>
