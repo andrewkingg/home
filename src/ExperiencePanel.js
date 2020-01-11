@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Experience.css';
 import ExperienceHolder from './ExperienceHolder'
 import parsons from './Assets/parsons.png'
 import roblox from './Assets/roblox-icon-2.png'
@@ -14,8 +14,8 @@ class ExperiencePanel extends React.Component {
                 {
                     name: 'Parsons Corporation - Software Engineer',
                     date: 'June 2019 - Present',
-                    desc: 'Worked as a Front End engineer to support the development of software interfaces and supported Automation Testing codebase for Company products.',
-                    tech: 'HTML, Javascript, Polymer, React, Java, Selenium, Ansible, Bash, Computer Networks',
+                    desc: 'Worked as a Front End engineer to support the development and maintenance of software interfaces.',
+                    tech: 'Javascript, Typescript, React, Java, Selenium, Ansible, Bash',
                     image: parsons
                 },
                 {
@@ -28,7 +28,7 @@ class ExperiencePanel extends React.Component {
                 {
                     name: 'Time Warner Cable - NOC Intern',
                     date: 'Summer 2015',
-                    desc: 'Interned as a Network Operations Center intern in the general and Systems departments. Monitored network alarms and worked on customer webmail services.',
+                    desc: 'Network Operations Center intern in the general and Systems departments. Monitored network alarms and worked on customer webmail services.',
                     tech: 'Webmail',
                     image: twc
                 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Slideshow.css';
 
 class SlideshowCard extends React.Component {
     render() {
@@ -13,9 +13,9 @@ class SlideshowCard extends React.Component {
                </div>
                <div className = 'slideshowCardText'>
                    <div className = 'whiteText'>
-                    <p style = {{marginBottom: '0px', fontWeight: '600', fontSize: '16px'}}>{this.props.project.title}</p>
+                    <p style = {{marginBottom: '0px', fontWeight: '650', fontSize: '16px'}}>{this.props.project.title}</p>
                     <p style = {{marginTop: '0px', fontSize: '14px'}}>Category: {this.props.project.category}</p>
-                    <p style = {{fontSize: '14px'}}>Developed using: {this.props.project.technology}</p>
+                    <p style = {{fontSize: '14px'}}>Developed with: {this.props.project.technology}</p>
                     <p style = {{fontSize: '14px'}}>{this.props.project.description}</p>
                     </div>
                </div>

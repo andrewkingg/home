@@ -13,19 +13,19 @@ class LinksPanel extends React.Component {
           name: 'Facebook',
           url: 'https://www.facebook.com/profile.php?id=100000910629657',
           icon: IoLogoFacebook,
-          color: 'rgb(0, 223, 205)'
+          color: '#4267B2'
         },
         {
           name: 'LinkedIn',
           url: 'https://www.linkedin.com/in/andrew-king-500281102/',
           icon: IoLogoLinkedin,
-          color: 'rgb(255, 198, 43)'
+          color: '#0077B5'
         },
         {
           name: 'GitHub',
           url: 'https://github.com/andrewkingg',
           icon: IoLogoGithub,
-          color: 'rgb(255, 57, 116)'
+          color: '#2B3137'
         },
         {
           name: 'Resume',

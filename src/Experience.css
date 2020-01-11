@@ -1,0 +1,67 @@
+.experienceTitle{
+  margin-top: 0px;
+}
+.experienceContainer{
+  /*overflow: auto;*/
+  height: 100%;
+}
+.experienceHolder {
+  width: 100%;
+  height: 134px;
+  border-width: .5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  border-bottom: rgb(192, 192, 192) solid .5px;
+}
+
+.descHolder {
+  height:100%;
+  width: 77%;
+  position: relative;
+  margin-left: 15px;
+  padding-right: 5px;
+}
+
+.descTitle{
+  display: flex;
+  width: 100%;
+  color: rgb(68, 68, 68);
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+.descTitle p{
+  margin: 0px;
+}
+
+.descBody{
+  margin: 0px;
+  font-size: 15px;
+  width: 100%;
+}
+.descFooter{
+  font-size: 14px;
+  color: gray;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.experienceIcon{
+  height : 90%;
+  width: 18%;
+  /* border-style:solid;
+  border-color: rgb(196, 196, 196); */
+  border-width: .5px;
+  padding: 1px;
+  margin-top: 5px;
+  margin-right: 15px;
+}

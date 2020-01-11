@@ -5,7 +5,7 @@ class ProjectsPanel extends React.Component {
   render() {
     return (
         
-      <div className="experience" style = {{height: '360px', position: 'relative'}}>
+      <div className="experience" style = {{position: 'relative'}}>
         <h2 className="experienceTitle title">Projects</h2>
           <Slideshow/>
       </div>

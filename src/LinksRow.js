@@ -10,7 +10,7 @@ class LinksRow extends React.Component {
                     <TagName className='linkIcons' style={{ color: this.props.obj.color }} />
                 </a>
                 <a href={this.props.obj.url} target="_blank" rel="noopener noreferrer">
-                    <p>{this.props.obj.name}</p>
+                    <p style = {{marginTop: '18px',fontSize: '15px'}}>{this.props.obj.name}</p>
                 </a>
             </div>
         );

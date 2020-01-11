@@ -1,5 +1,5 @@
 body{
-  background-color: #fafafa;
+  background-color: #f8f8f8;
 }
 .App {
   min-height: 100%;
@@ -20,59 +20,14 @@ body{
   margin:0px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.headerBanner {
-  width: 980px;
-  height: 150px;
-  background-color: rgb(255, 255, 255);
-  margin:0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: rgb(196, 196, 196);
-  position: relative;
-}
-
-.headerBanner span{
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.navbarHeader {
-  width: 980px;
-  height: 40px;
-  background-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: rgb(196, 196, 196);
-  margin-bottom: 20px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.navText{
-  font-weight: 600; 
-  font-size : 17px;
-  margin: 20px;
-}
-
 .pfp{
   margin: auto;
-  width: 249px;
-  height: 249px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .linksColumn{
@@ -93,8 +48,9 @@ body{
 }
 .pfpText{
   width: 100%;
-  height: 210px;
+  height: 100%;
   text-align: center;
+  padding-bottom: 25px;
 }
 .Panel2 {
   width: 700px;
@@ -111,12 +67,11 @@ body{
 
 .experience {
   width: 100%;
-  height: 460px;
+
   margin-bottom: 20px;
   background-color: #ffffff;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: rgb(196, 196, 196);
+  box-shadow: 0px 5px 12px -5px rgba(77,77,77,0.31);
+  border-radius: 5px;
 }
 .experienceTitle{
   margin-top: 0px;
@@ -124,16 +79,6 @@ body{
 .experienceContainer{
   /*overflow: auto;*/
   height: 100%;
-}
-.experienceHolder {
-  width: 100%;
-  height: 134px;
-  border-bottom-style: solid;
-  border-width: .5px;
-  border-color: rgb(0, 223, 205);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .iconHolder {
@@ -145,26 +90,6 @@ body{
   height : 100%;
 }
 
-.slideshowCardImageHolder{
-  margin-left: .5px;
-  width: 520px;
-  height: 99.9%;
-  background-color: rgb(255, 255, 255);
-  border-right-style: solid;
-  border-right-width: 0.5px;
-  border-right-color: rgb(170, 170, 170);
-  overflow: hidden;
-}
-
-.slideshowCard{
-  height: 300px;
-  width: 700px;
-  display: flex;
-  flex-direction: row;
-  border-bottom-style: solid;
-  border-width: .5px;
-  border-color:rgb(255, 57, 116);
-}
 
 a{
   text-decoration: none;
@@ -186,35 +111,19 @@ a:active {
 .yellow{
   color:rgb(255, 198, 43);
 }
-.green{
-  color: rgb(0, 223, 205);
-}
-.slideshowCardText{
-  margin-right: .5px;
-  width: 180px;
-  height: 99.9%;
-  background-color: rgb(255, 255, 255);
-  text-align: right;
-}
 
-.whiteText{
-  color: rgb(0, 0, 0);
-  padding-left: 10px;
-}
 
-.whiteText p,h3{
-  margin-top: 6px;
-  margin-right: 10px;
-}
 h2.title{
-  border-bottom-style: solid;
-  border-width: .5px;
-  border-color: rgb(255, 198, 43);
+  background-color: #ffcf66;
+  color: rgb(68, 68, 68);
   margin-bottom: .2px;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-left: 10px;
-  font-size: 17px;
+  font-size: 16px;
+  min-height: 3px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .center{
   width: 100%;
@@ -224,47 +133,11 @@ h2.title{
   align-items: center;
 }
 
-.descTitle{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin: 0px;
-  margin-top: 10px;
-  margin-right: 10px;
-}
 
-.descTitle p{
-  margin: 0px;
-}
-.descBody{
-  margin: 0px;
-  font-size: 15px;
-  width: 100%;
-}
-.descFooter{
-  position: absolute;
-  margin-bottom: 5px;
-  bottom: 0px;
-  font-size: 14px;
-}
 
-.descHolder {
-  height:100%;
-  width: 75%;
-  position: relative;
-  margin-left: 10px;
-}
 
-.experienceIcon{
-  height : 90%;
-  width: 18%;
-  border-style:solid;
-  border-color: rgb(196, 196, 196);
-  border-width: .5px;
-  padding: 1px;
-  margin-top: 5px;
-  margin-right: 10px;
-}
+
+
 
 .row {
   flex:1;

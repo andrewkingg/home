@@ -7,6 +7,7 @@ class Profile extends React.Component {
     return (
 
       <div className="experience">
+        <h2 className="experienceTitle title"></h2>
         <div className = 'pfp'>
         <img style = {{height : '100%', width: '100%'}} src={profilepic} alt=''></img>
         </div>
