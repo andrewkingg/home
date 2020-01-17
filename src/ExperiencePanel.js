@@ -44,7 +44,7 @@ class ExperiencePanel extends React.Component {
                 <h2 className="experienceTitle title">Experience</h2>
                 <div className='experienceContainer'>
                     {this.state.profiles.map(profile => (
-                        <ExperienceHolder obj={profile} />))}
+                        <ExperienceHolder key = {profile.name} obj={profile} />))}
                 </div>
             </div>
         );

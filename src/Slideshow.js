@@ -34,7 +34,7 @@ function Slideshow() {
         }}
       >
         {images.map(project => (
-          <SlideshowCard project = {project}/>
+          <SlideshowCard key = {project.title} project = {project}/>
         ))}
       </Gallery>
     </div>

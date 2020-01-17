@@ -43,7 +43,7 @@ class LinksPanel extends React.Component {
         <h2 className = 'experienceTitle title'>Links</h2>
         <div className='linksColumn'>
           {this.state.links.map(obj => (
-            <LinksRow obj={obj} />
+            <LinksRow key = {obj.name} obj={obj} />
           ))}
         </div>
       </div>

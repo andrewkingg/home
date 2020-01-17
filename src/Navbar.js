@@ -8,6 +8,7 @@ class Header extends React.Component {
         <div className="navbarHeader"> 
           <Link to = "/home" className = 'navText' style ={{color: "rgb(68, 68, 68)"}}> Home </Link>
           <Link to = "/about" className = 'navText' style ={{color: "rgb(68, 68, 68)"}}> About </Link>
+          <Link to = "/designs" className = 'navText' style ={{color: "rgb(68, 68, 68)"}}> Designs </Link>
         </div>
     );
   }

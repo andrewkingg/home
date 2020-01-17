@@ -1,0 +1,23 @@
+.designCard{
+  width: 430px;
+  height: 241.88px;
+  box-shadow: 0px 5px 12px -5px rgba(48, 48, 48, 0.31);
+  background-color: white;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.DesignContainer {
+  padding-top: 10px;
+  width: 900px;
+  height: 100vh;
+  text-align: left;
+  margin:0px;
+}
+
+.image{
+  height: 100%;
+  width: 100%;
+}
