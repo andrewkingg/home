@@ -15,7 +15,7 @@ class Header extends React.Component {
             </div>
           </Link>
           <div className="space-between" style = {{width: '300px'}}>
-            <Link to="/" className='navText' > Home </Link>
+            <Link to="/home" className='navText' > Home </Link>
             <Link to="/about" className='navText' > About </Link>
             <Link to="/designs" className='navText' > Designs </Link>
             <a href={"https://docs.google.com/document/d/1UGsSHjQc2uxM-Psygvig9GexNt0zpHe_XlXYBagqj80/edit?usp=sharing"} target="_blank" rel="noopener noreferrer">
