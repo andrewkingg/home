@@ -4,13 +4,12 @@ class LinksRow extends React.Component {
     render() {
         const TagName = this.props.obj.icon;
         return (
-
-            <div className='linkRow'>
+          
+            <div style={{marginRight: "15px"}}>
                 <a href={this.props.obj.url} target="_blank" rel="noopener noreferrer">
+                <div style={{backgroundColor:'white', height:"30px",width:"30px"}}>
                     <TagName className='linkIcons' style={{ color: this.props.obj.color }} />
-                </a>
-                <a href={this.props.obj.url} target="_blank" rel="noopener noreferrer">
-                    <p style = {{marginTop: '18px',fontSize: '15px'}}>{this.props.obj.name}</p>
+                    </div>
                 </a>
             </div>
         );

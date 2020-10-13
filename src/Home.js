@@ -1,26 +1,22 @@
 import React from 'react';
 import './App.css';
-import ExperiencePanel from './ExperiencePanel.js'
-import Profile from './Profile.js'
-import LinksPanel from './LinksPanel';
-import ProjectsPanel from './ProjectsPanel';
-import Contact from './Contact.js'
+import HeroSection from './Components/HeroSection/heroSection'
+import WorkExperience from './Components/WorkExperience/WorkExperience'
+import DesignSection from './Components/DesignSection/DesignSection';
+import CodingSection from './Components/CodingSection/CodingSection';
+import CallToActionSection from './Components/CallToActionSection/CallToActionSection';
 class Home extends React.Component {
-    render() {
-        return (
-            <div className='Container'>
-                <div className="Panel1">
-                    <Profile />
-                    <LinksPanel />
-                    <Contact />
-                </div>
-                <div className="Panel2">
-                    <ProjectsPanel />
-                    <ExperiencePanel />
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>          
+        <HeroSection/>
+        <DesignSection/>
+        <CodingSection/>
+        <WorkExperience/>
+        <CallToActionSection/>
+      </div>
+    );
+  }
 }
 
 export default Home;

@@ -5,17 +5,17 @@ import AboutMe from './AboutMe'
 import Designs from './Designs'
 import PageTemplate from './PageTemplate.js'
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import Header from './Navbar';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <Router>
-          <Route path={"/"} component={PageTemplate} />
-          <Route path={"/home"} component={Home}></Route>
-          <Route path={"/about"} component={AboutMe}></Route>
-          <Route path={"/designs"} component={Designs}></Route>
-          <Redirect from="/" exact to="/home" />
+        <Header/>
+          <Route exact path={"/"} component={Home}></Route>
+          <Route exact path={"/about"} component={AboutMe}></Route>
+          <Route exact path={"/designs"} component={Designs}></Route>
         </Router>
       </div>
     );

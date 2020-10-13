@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import LinksRow from './LinksRow.js'
-import { IoLogoFacebook, IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
-import { TiDocumentText } from 'react-icons/ti'
+import { FaGithubSquare ,FaFacebookSquare, FaLinkedin, FaFileAlt } from "react-icons/fa"
 
 class LinksPanel extends React.Component {
   constructor(props) {
@@ -12,26 +11,20 @@ class LinksPanel extends React.Component {
         {
           name: 'Facebook',
           url: 'https://www.facebook.com/profile.php?id=100000910629657',
-          icon: IoLogoFacebook,
-          color: '#4267B2'
-        },
-        {
-          name: 'LinkedIn',
-          url: 'https://www.linkedin.com/in/andrew-king-500281102/',
-          icon: IoLogoLinkedin,
-          color: '#0077B5'
+          icon: FaFacebookSquare,
+          color: '#4064AC'
         },
         {
           name: 'GitHub',
           url: 'https://github.com/andrewkingg',
-          icon: IoLogoGithub,
-          color: '#2B3137'
+          icon: FaGithubSquare,
+          color: '#595959'
         },
         {
-          name: 'Resume',
-          url: 'https://docs.google.com/document/d/1vCVIWRXv_UDFpFKbemy64sHkosXHz-cfFlrK7s63ULc/edit?usp=sharing',
-          icon: TiDocumentText,
-          color: 'rgb(145, 145, 145)'
+          name: 'LinkedIn',
+          url: 'https://www.linkedin.com/in/andrew-king-500281102/',
+          icon: FaLinkedin,
+          color: '#0077B5'
         },
       ]
     }
@@ -39,14 +32,12 @@ class LinksPanel extends React.Component {
   render() {
     return (
 
-      <div className="experience" style={{ height: '245px' }}>
-        <h2 className = 'experienceTitle title'>Links</h2>
+   
         <div className='linksColumn'>
           {this.state.links.map(obj => (
             <LinksRow key = {obj.name} obj={obj} />
           ))}
         </div>
-      </div>
     );
   }
 }

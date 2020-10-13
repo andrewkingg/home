@@ -6,11 +6,11 @@ import AboutPhoto from './AboutPhoto';
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className='Container'>
-                <div className="Panel2">
+            <div className='Container' style = {{justifyContent: 'space-between', paddingTop: '50px'}}>
+                <div style = {{width: '65%'}}>
                     <AboutDesc/>
                 </div>
-                <div className="Panel1">
+                <div style = {{width: '25%'}}>
                     <AboutPhoto/>
                 </div>
             </div>

@@ -1,24 +1,29 @@
 import React from 'react';
 import './Experience.css';
-class ExperiencePanel extends React.Component {
 
-  render() {
+const ExperiencePanel = ({jobDetails}) => {
+
     return (
 
       <div className="experienceHolder">
+         <img className='experienceIcon' src={jobDetails.image} alt=''></img>
         <div className="descHolder">
           <div className="descTitle">
-            <p style = {{fontWeight: '650', fontSize : '16px'}}>{this.props.obj.name}</p>
-            <p style = {{paddingRight: '5px', fontSize: '16px', marginTop: '2px', fontWeight: '500'}}>{this.props.obj.date}</p>
+            <p style = {{fontWeight: '600', fontSize : '14px', marginRight: "15px"}}>{jobDetails.name}</p>
+            <p className = "grayText" style = {{paddingRight: '10px', fontSize: '12px'}}>{jobDetails.time}</p>
           </div>
-          <p className = 'descBody'>{this.props.obj.desc}</p>
-          <p className = "descFooter">{'Technologies: ' +this.props.obj.tech}</p>
+          <p className = 'descBody'>{jobDetails.title}</p>
+          <div style = {{ width: '100%', position: 'absolute', bottom: '0'}}>
+          {jobDetails.skills.map((skill,i) => ((i===jobDetails.skills.length-1)?
+          <p className = "descFooter">{skill} </p>: 
+          <span style={{marginRight:'2.5px', fontSize:'10px'}}><p className = "descFooter">{skill}</p> • </span>
+          ))}
+          </div>
         </div>
 
-        <img className='experienceIcon' src={this.props.obj.image} alt=''></img>
+       
       </div>
     );
-  }
 }
 
 export default ExperiencePanel;

@@ -6,10 +6,8 @@ class AboutPhoto extends React.Component {
   render() {
     return (
 
-      <div className="experience">
-        <div className = 'pfp' style = {{height: '100%'}}>
-        <img style = {{height : '100%', width: '100%'}} src={profilepic} alt=''></img>
-        </div>
+      <div className="experience" style = {{width: "100%"}}>
+        <img style = {{height : '500px', width: '100%', objectFit: 'contain'}} src={profilepic} alt=''></img>
       </div>
     );
   }
