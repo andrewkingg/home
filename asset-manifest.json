@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.2936dd07.chunk.css",
-    "main.js": "/home/static/js/main.40cb8776.chunk.js",
-    "main.js.map": "/home/static/js/main.40cb8776.chunk.js.map",
+    "main.css": "/home/static/css/main.c510306d.chunk.css",
+    "main.js": "/home/static/js/main.19ccdfdc.chunk.js",
+    "main.js.map": "/home/static/js/main.19ccdfdc.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.e0102dea.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.e0102dea.js.map",
-    "static/js/2.86227259.chunk.js": "/home/static/js/2.86227259.chunk.js",
-    "static/js/2.86227259.chunk.js.map": "/home/static/js/2.86227259.chunk.js.map",
+    "static/js/2.9f26698c.chunk.js": "/home/static/js/2.9f26698c.chunk.js",
+    "static/js/2.9f26698c.chunk.js.map": "/home/static/js/2.9f26698c.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.d418c5c7659f1b7bbfe9c1c85f283370.js": "/home/precache-manifest.d418c5c7659f1b7bbfe9c1c85f283370.js",
+    "precache-manifest.e0bbf257dc27676a79aa13f7d2eea994.js": "/home/precache-manifest.e0bbf257dc27676a79aa13f7d2eea994.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.2936dd07.chunk.css.map": "/home/static/css/main.2936dd07.chunk.css.map",
+    "static/css/main.c510306d.chunk.css.map": "/home/static/css/main.c510306d.chunk.css.map",
     "static/media/AllChat.png": "/home/static/media/AllChat.77a1fb8a.png",
     "static/media/AllChatThumbnail.png": "/home/static/media/AllChatThumbnail.7a38496a.png",
     "static/media/BrianResume.png": "/home/static/media/BrianResume.408e2130.png",
@@ -20,6 +20,8 @@
     "static/media/Gfriend-Home.png": "/home/static/media/Gfriend-Home.9c185a2d.png",
     "static/media/KimSeolhyun.png": "/home/static/media/KimSeolhyun.cca910a2.png",
     "static/media/KokisKookies.png": "/home/static/media/KokisKookies.28da7ef8.png",
+    "static/media/MeYouSlide.png": "/home/static/media/MeYouSlide.49f39796.png",
+    "static/media/MeYouThumbnail.png": "/home/static/media/MeYouThumbnail.507a62a0.png",
     "static/media/MealDeal.png": "/home/static/media/MealDeal.0d12e6b9.png",
     "static/media/MealDealThumbail.png": "/home/static/media/MealDealThumbail.d4fb602d.png",
     "static/media/PokeTyper.jpg": "/home/static/media/PokeTyper.6b955543.jpg",
@@ -34,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e0102dea.js",
-    "static/js/2.86227259.chunk.js",
-    "static/css/main.2936dd07.chunk.css",
-    "static/js/main.40cb8776.chunk.js"
+    "static/js/2.9f26698c.chunk.js",
+    "static/css/main.c510306d.chunk.css",
+    "static/js/main.19ccdfdc.chunk.js"
   ]
 }
