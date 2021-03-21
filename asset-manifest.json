@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.c510306d.chunk.css",
-    "main.js": "/home/static/js/main.19ccdfdc.chunk.js",
-    "main.js.map": "/home/static/js/main.19ccdfdc.chunk.js.map",
+    "main.css": "/home/static/css/main.0df473c0.chunk.css",
+    "main.js": "/home/static/js/main.789dd7ec.chunk.js",
+    "main.js.map": "/home/static/js/main.789dd7ec.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.e0102dea.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.e0102dea.js.map",
-    "static/js/2.9f26698c.chunk.js": "/home/static/js/2.9f26698c.chunk.js",
-    "static/js/2.9f26698c.chunk.js.map": "/home/static/js/2.9f26698c.chunk.js.map",
+    "static/js/2.9b036722.chunk.js": "/home/static/js/2.9b036722.chunk.js",
+    "static/js/2.9b036722.chunk.js.map": "/home/static/js/2.9b036722.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.e0bbf257dc27676a79aa13f7d2eea994.js": "/home/precache-manifest.e0bbf257dc27676a79aa13f7d2eea994.js",
+    "precache-manifest.3b7e29b32fbb195ea0c5eea6932e76cf.js": "/home/precache-manifest.3b7e29b32fbb195ea0c5eea6932e76cf.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.c510306d.chunk.css.map": "/home/static/css/main.c510306d.chunk.css.map",
-    "static/media/AllChat.png": "/home/static/media/AllChat.77a1fb8a.png",
+    "static/css/main.0df473c0.chunk.css.map": "/home/static/css/main.0df473c0.chunk.css.map",
     "static/media/AllChatThumbnail.png": "/home/static/media/AllChatThumbnail.7a38496a.png",
     "static/media/BrianResume.png": "/home/static/media/BrianResume.408e2130.png",
     "static/media/BugCat.png": "/home/static/media/BugCat.9024422b.png",
@@ -20,24 +19,21 @@
     "static/media/Gfriend-Home.png": "/home/static/media/Gfriend-Home.9c185a2d.png",
     "static/media/KimSeolhyun.png": "/home/static/media/KimSeolhyun.cca910a2.png",
     "static/media/KokisKookies.png": "/home/static/media/KokisKookies.28da7ef8.png",
-    "static/media/MeYouSlide.png": "/home/static/media/MeYouSlide.49f39796.png",
     "static/media/MeYouThumbnail.png": "/home/static/media/MeYouThumbnail.507a62a0.png",
-    "static/media/MealDeal.png": "/home/static/media/MealDeal.0d12e6b9.png",
     "static/media/MealDealThumbail.png": "/home/static/media/MealDealThumbail.d4fb602d.png",
     "static/media/PokeTyper.jpg": "/home/static/media/PokeTyper.6b955543.jpg",
-    "static/media/Tinder.png": "/home/static/media/Tinder.2fdd6195.png",
     "static/media/TinderThumbnail.png": "/home/static/media/TinderThumbnail.a6df0ef5.png",
     "static/media/TopModel.jpg": "/home/static/media/TopModel.b8825cb8.jpg",
     "static/media/aboutphoto2.jpg": "/home/static/media/aboutphoto2.7190b008.jpg",
     "static/media/general_assembly.png": "/home/static/media/general_assembly.b76113a2.png",
-    "static/media/heroPhoto.jpg": "/home/static/media/heroPhoto.2656a959.jpg",
+    "static/media/heroPhotoz.jpg": "/home/static/media/heroPhotoz.6be883b3.jpg",
     "static/media/mantech.png": "/home/static/media/mantech.e5303e25.png",
     "static/media/time-warner-logo.jpg": "/home/static/media/time-warner-logo.edf984b3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e0102dea.js",
-    "static/js/2.9f26698c.chunk.js",
-    "static/css/main.c510306d.chunk.css",
-    "static/js/main.19ccdfdc.chunk.js"
+    "static/js/2.9b036722.chunk.js",
+    "static/css/main.0df473c0.chunk.css",
+    "static/js/main.789dd7ec.chunk.js"
   ]
 }
