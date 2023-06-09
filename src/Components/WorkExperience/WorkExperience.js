@@ -10,12 +10,20 @@ import twc from '../../Assets/time-warner-logo.jpg'
 import mantech from '../../Assets/mantech.png'
 import generalAssembly from '../../Assets/general_assembly.png'
 import uva from '../../Assets/uva.png'
+import blueridge from '../../Assets/BlueRidgeLogo.jpeg'
 
 const WorkExperience = () => {
   const data = [
     {
+      name: "Blue Ridge Dynamics",
+      time: "Since Nov 2021",
+      title: "Front End Developer",
+      skills: ["Vue 3", "React JS", "Javascript", "HTML", "CSS"],
+      image: blueridge,
+      }, 
+    {
     name: "Mantech International",
-    time: "Since June 2020",
+    time: "2020-2021",
     title: "User Experience Designer / Developer",
     skills: ["ASP.NET Core", "HTML/CSS", "Web Design","Wireframing"],
     image: mantech,

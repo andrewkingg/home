@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import './App.css';
 import HeroSection from './Components/HeroSection/heroSection'
 import WorkExperience from './Components/WorkExperience/WorkExperience'
+import SkillsSection from './Components/SkillsSection/SkillsSection'
+
 import DesignSection from './Components/DesignSection/DesignSection';
 import CodingSection from './Components/CodingSection/CodingSection';
 import CallToActionSection from './Components/CallToActionSection/CallToActionSection';
@@ -18,6 +20,8 @@ const Home = () => {
       <div class="container-fluid px-0">          
         <HeroSection/>
         <DesignSection/>
+        <SkillsSection/>
+
         <CodingSection/>
         <WorkExperience/>
         <CallToActionSection/>
