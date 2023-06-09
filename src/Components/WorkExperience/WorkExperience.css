@@ -1,0 +1,10 @@
+.gray-bg {
+  background-color: var(--bg-gray);
+}
+
+.cardContainer{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
