@@ -26,13 +26,41 @@
   width: 430px;
   height: 241.88px;
   z-index: -1;
-  background-color: blue;
-  box-shadow: 0px 15px 14px -3px rgba(63, 63, 63, 0.31);
+  box-shadow: 0px 15px 34px -3px rgba(63, 63, 63, 0.31);
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
 
+.squareCard{
+  width: 300px;
+  height: 241.88px;
+  box-shadow: 0px 0px 15px 2px rgba(63, 63, 63, 0.11);
+  background-color: white;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-style:solid;
+  border: 0.5px solid var(--light-gray);
+  
+}
+
 .designCard:hover:before{
+  opacity: 1;
+}
+
+.squareCard:before{
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 241.88px;
+  z-index: -1;
+  box-shadow: 0px 15px 24px -3px rgba(63, 63, 63, 0.31);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.squareCard:hover:before{
   opacity: 1;
 }
 

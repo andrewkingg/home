@@ -6,12 +6,14 @@ import AboutPhoto from './AboutPhoto';
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className='Container' style = {{justifyContent: 'space-between', paddingTop: '50px'}}>
-                <div style = {{width: '65%'}}>
+            <div className='container pt-4'>
+              <div className='row m-0'>
+                <div className='col-sm-12 col-md-8 p-0'>
                     <AboutDesc/>
                 </div>
-                <div style = {{width: '25%'}}>
+                <div className='col-sm-12 col-md-4'>
                     <AboutPhoto/>
+                </div>
                 </div>
             </div>
         );

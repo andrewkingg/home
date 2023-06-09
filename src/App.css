@@ -41,7 +41,7 @@ h3{
 
 h2{
   font-weight: 600;
-  font-size: 23px;
+  font-size: 1.5rem;
   color: var(--black-text);
   margin-top: 0;
   margin-left: 0px;
@@ -66,7 +66,6 @@ h2{
   padding-right: 35px;
   cursor: pointer;
   border-radius: 4px;
-  margin: 20px;
   transition-duration: 0.4s;
   color: var(--blue-text);
   font-size: 16px;
@@ -86,22 +85,10 @@ h2{
   color: var(--blue-text);
 }
 
-
-.Container {
-  min-width: 1100px;
-  max-width: 1100px;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin:0px;
-}
-
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  width: 100vw;
+
 }
 
 .bodyText {
@@ -216,3 +203,14 @@ a:active {
   display: flex;
   width: 100%;
 }
+
+@media (max-width: 576px) { 
+  .bg-gray{
+    min-width: 100vw; 
+    min-height: 100vh;
+    background-color: var(--bg-gray); 
+  }
+  .tagline-container{
+    padding-left: 0 !important;
+  }
+ }

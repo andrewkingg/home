@@ -5,7 +5,7 @@ import Navbar from './Navbar.js'
 class Header extends React.Component {
   render() {
     return (
-      <div className="header">
+      <div className="container-fluid p-0">
 
         <Navbar />
       </div>
