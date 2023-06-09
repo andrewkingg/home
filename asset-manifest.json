@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/home/static/css/main.78701d35.chunk.css",
-    "main.js": "/home/static/js/main.96d5df57.chunk.js",
-    "main.js.map": "/home/static/js/main.96d5df57.chunk.js.map",
+    "main.js": "/home/static/js/main.adc526c2.chunk.js",
+    "main.js.map": "/home/static/js/main.adc526c2.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.4fc73d2c.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.4fc73d2c.js.map",
     "static/js/2.cc41df71.chunk.js": "/home/static/js/2.cc41df71.chunk.js",
     "static/js/2.cc41df71.chunk.js.map": "/home/static/js/2.cc41df71.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.4909351215dd4db34a80fd5fc6c6ccd1.js": "/home/precache-manifest.4909351215dd4db34a80fd5fc6c6ccd1.js",
+    "precache-manifest.1bf4529c02e17eba820dbe445bd7ea8b.js": "/home/precache-manifest.1bf4529c02e17eba820dbe445bd7ea8b.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/main.78701d35.chunk.css.map": "/home/static/css/main.78701d35.chunk.css.map",
     "static/media/AllChatThumbnail.png": "/home/static/media/AllChatThumbnail.7a38496a.png",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.4fc73d2c.js",
     "static/js/2.cc41df71.chunk.js",
     "static/css/main.78701d35.chunk.css",
-    "static/js/main.96d5df57.chunk.js"
+    "static/js/main.adc526c2.chunk.js"
   ]
 }
