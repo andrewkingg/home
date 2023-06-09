@@ -11,7 +11,7 @@ const skills = [{name: 'React JS', img: reactlogo}, {name: 'Vue', img: vuelogo},
   return (
       <div className="gray-bg py-5">
     <div className="container">
-      <SectionHeader title="Developer Skills" center/>
+      <SectionHeader title="Software Development Skills" center/>
       <div className="row m-0 justify-content-between">
             {skills.map((skill)=> (<div className="d-flex flex-column items-center text-center col-12 col-sm-6 col-md-2 mb-4"
             >

@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <div className="pr-5">
                   <h3 className="pr-5">I work to combine <span style={{ color: 'var(--accent-color)' }}>creativity</span> and <span style={{ color: 'var(--accent-color)' }}>technology</span> to solve real world problems</h3>
                 </div>
-                <p>Front End Developer • UX Designer</p>
+                <p>Frontend Software Developer • UX Designer</p>
                 <LinksPanel />
                 <p className='smallText mb-0' style={{ marginTop: '10px' }}>andrewking22098@gmail.com</p>
               </div>

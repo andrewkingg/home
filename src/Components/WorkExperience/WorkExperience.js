@@ -17,7 +17,7 @@ const WorkExperience = () => {
     {
       name: "Blue Ridge Dynamics",
       time: "Since Nov 2021",
-      title: "Front End Developer",
+      title: "Frontend Software Developer",
       skills: ["Vue 3", "React JS", "Javascript", "HTML", "CSS"],
       image: blueridge,
       }, 
@@ -31,7 +31,7 @@ const WorkExperience = () => {
     {
     name: "Parsons Corporation", 
     time: "2019-2020",
-    title: "Front End Developer",
+    title: "Frontend Software Developer",
     skills: ["React JS","Javascript","Typescript","HTML", "CSS"],
     image: parsons,
   },
