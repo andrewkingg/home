@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  color: rgb(45, 45, 45);
+}
+
+@theme {
+  
+
+}
+html {
+  scroll-behavior: smooth;
+}
+:root{
+  --btn-gradient: linear-gradient(to right, #4f46e5, #339bea);
+}
+
+.gradient-text{
+    background: -webkit-linear-gradient(left, rgb(102, 112, 255), #ff4479);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg{
+      background: -webkit-linear-gradient(left, rgb(8, 0, 245), #dd006b);
+
+}
