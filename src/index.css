@@ -22,7 +22,7 @@ html {
 }
 
 .gradient-text{
-    background: -webkit-linear-gradient(left, rgb(102, 112, 255), #ff4479);
+    background: linear-gradient(to right, rgb(131, 139, 255), #44fcff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

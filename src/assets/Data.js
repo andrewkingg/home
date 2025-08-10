@@ -21,7 +21,12 @@ import generalAssembly from './general_assembly.png'
 import uva from './uva.png'
 import blueridge from './BlueRidgeLogo.jpeg'
 import Deloitte from './Deloitte-logo.jpg'
+import profilePhoto from './heroPhotoz.jpg'
+import logo from './aklogo.png'
 
+export {logo}
+
+export const profilePicture = profilePhoto;
 
  export const workExperience = [
     {
