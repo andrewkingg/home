@@ -15,9 +15,9 @@ const ProjectsSection = () => {
                         transition={{ duration: 1, ease: "easeOut", delay: i * 0.1 }}
                         viewport={{ once: true }}
             href={x.url} target="_blank" key={x.name}><div 
-            className=' border h-full border-indigo-200 shadow rounded-xl overflow-hidden bg-white cursor-pointer hover:scale-102 hover:shadow-md transition flex flex-col relative p-4'>
+            className=' border h-full border-slate-200 shadow rounded-xl overflow-hidden bg-white cursor-pointer hover:scale-102 hover:shadow-md transition flex flex-col relative p-4'>
                 <img className="object-cover rounded-xl shadow-md border border-gray-200 w-full aspect-video " src={x.image}/>
-                <div className="p-4 flex flex-col flex-1">
+                <div className="py-4 px-1 flex flex-col flex-1">
                   <div className="text-xl font-bold mb-2">{x.name}</div>
                             <div
                             className=" flex space-x-1 absolute top-2

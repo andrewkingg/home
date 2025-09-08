@@ -3,7 +3,7 @@ import MealDeal from './MealDealThumbail.png'
 import Allchat from './AllChatThumbnail.png'
 import MeYou from './MeYouThumbnail.png'
 import TeeUp from './teeupfortomorrow.png'
-
+import QuickGpt from './quickgpt.png'
 
 import htmllogo from './HTML-logo.png'
 import csslogo from './CSS-logo.png'
@@ -84,6 +84,15 @@ export const education = [
 export const skills = [{name: 'React JS', img: reactlogo}, {name: 'Vue', img: vuelogo}, {name: 'HTML', img: htmllogo}, {name: 'CSS', img: csslogo}, {name: 'Javascript', img: javascriptlogo}, {name: 'Docker', img: dockerlogo}, {name: 'PostgreSQL', img: postgres}, {name: 'AWS', img: awslogo}]
 
 export const projects = [
+    {
+    name: "Simple AI Chatbot",
+    time: "August 2025",
+    title: "To get more experience with AI, I built a basic AI Chatbot that uses Google Gemini's API. React frontend, Express backend.",
+    image: QuickGpt,
+    url: "https://quick-gpt-app.vercel.app/",
+    linkText: 'Visit WebApp',
+    type: ['Web Development']
+    }, 
    {
     name: "Tee Up For Tomorrow",
     time: "May 2025",
@@ -93,16 +102,16 @@ export const projects = [
     linkText: 'Visit Website',
     type: ['Web', 'Design']
     }, 
-  {
-    name: "MeYou Virtual Dating",
-    time: "Feb 2021",
-    title: "Team project for the 2021 DubTech's Valentines Hackathon. Web App designed to help long distance couples stay connected.",
-    image: MeYou,
-    url: "https://docs.google.com/presentation/d/1MaQRcU8wLwbsYqWrphY-z9ptlfewIdmaH4Z2v8n7Q9A/edit#slide=id.gd9c453428_0_16",
-    linkText: 'View Casestudy',
-    type: ['Design']
+  // {
+  //   name: "MeYou Virtual Dating",
+  //   time: "Feb 2021",
+  //   title: "Team project for the 2021 DubTech's Valentines Hackathon. Web App designed to help long distance couples stay connected.",
+  //   image: MeYou,
+  //   url: "https://docs.google.com/presentation/d/1MaQRcU8wLwbsYqWrphY-z9ptlfewIdmaH4Z2v8n7Q9A/edit#slide=id.gd9c453428_0_16",
+  //   linkText: 'View Casestudy',
+  //   type: ['Design']
 
-    }, 
+  //   }, 
   {
   name: "MealDeal Mobile App",
   time: "Spring 2020",
